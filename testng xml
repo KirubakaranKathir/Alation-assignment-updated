@@ -1,0 +1,10 @@
+<suite name="Amazon">
+
+ <test name="Amazon.com">
+ 
+ <parameter name="search" value="data catalog"/>
+ <classes>
+ <class name="com.qa.amazon.testclasses.AmazonTest" />
+ </classes>
+ </test>
+</suite>

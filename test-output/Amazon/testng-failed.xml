@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon]">
+  <listeners>
+    <listener class-name="com.qa.amazon.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Amazon.com(failed)">
+    <classes>
+      <class name="com.qa.amazon.testclasses.HomepageTest">
+        <methods>
+          <include name="selectBooksearchDropdown"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.amazon.testclasses.HomepageTest -->
+    </classes>
+  </test> <!-- Amazon.com(failed) -->
+</suite> <!-- Failed suite [Amazon] -->

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97544" started-at="2019-04-21T15:02:15Z" finished-at="2019-04-21T15:03:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97544" started-at="2019-04-21T15:02:15Z" finished-at="2019-04-21T15:03:52Z">
+      <class name="com.qa.amazon.testclasses.HomepageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="setup" is-config="true" duration-ms="9396" started-at="2019-04-21T20:32:15Z" finished-at="2019-04-21T20:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="selectBooksearchDropdown()[pri:1, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="selectBooksearchDropdown" duration-ms="1445" started-at="2019-04-21T20:32:24Z" finished-at="2019-04-21T20:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBooksearchDropdown -->
+        <test-method status="PASS" signature="enterSearchtext()[pri:2, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="enterSearchtext" duration-ms="247" started-at="2019-04-21T20:32:26Z" finished-at="2019-04-21T20:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchtext -->
+        <test-method status="PASS" signature="clickGoIcon()[pri:3, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="clickGoIcon" duration-ms="3577" started-at="2019-04-21T20:32:26Z" finished-at="2019-04-21T20:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGoIcon -->
+        <test-method status="PASS" signature="verifyresultbasedonsearchkeyword()[pri:4, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="verifyresultbasedonsearchkeyword" duration-ms="139" started-at="2019-04-21T20:32:29Z" finished-at="2019-04-21T20:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyresultbasedonsearchkeyword -->
+        <test-method status="PASS" signature="defaultSortByOption()[pri:5, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="defaultSortByOption" duration-ms="647" started-at="2019-04-21T20:32:30Z" finished-at="2019-04-21T20:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultSortByOption -->
+        <test-method status="PASS" signature="clickOnFirstResult()[pri:6, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="clickOnFirstResult" duration-ms="4576" started-at="2019-04-21T20:32:30Z" finished-at="2019-04-21T20:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFirstResult -->
+        <test-method status="PASS" signature="BookName()[pri:7, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="BookName" duration-ms="1547" started-at="2019-04-21T20:32:35Z" finished-at="2019-04-21T20:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookName -->
+        <test-method status="PASS" signature="Ratings()[pri:8, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="Ratings" duration-ms="1896" started-at="2019-04-21T20:32:36Z" finished-at="2019-04-21T20:32:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ratings -->
+        <test-method status="PASS" signature="PaperbackEditionDetails()[pri:9, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="PaperbackEditionDetails" duration-ms="6374" started-at="2019-04-21T20:32:38Z" finished-at="2019-04-21T20:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaperbackEditionDetails -->
+        <test-method status="PASS" signature="kindleDetails()[pri:10, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="kindleDetails" duration-ms="5498" started-at="2019-04-21T20:32:45Z" finished-at="2019-04-21T20:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kindleDetails -->
+        <test-method status="PASS" signature="hardCoreDetails()[pri:11, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="hardCoreDetails" duration-ms="24140" started-at="2019-04-21T20:32:50Z" finished-at="2019-04-21T20:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hardCoreDetails -->
+        <test-method status="PASS" signature="getAuthorName()[pri:12, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="getAuthorName" duration-ms="20514" started-at="2019-04-21T20:33:14Z" finished-at="2019-04-21T20:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthorName -->
+        <test-method status="PASS" signature="ViewedProducts()[pri:13, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="ViewedProducts" duration-ms="15321" started-at="2019-04-21T20:33:35Z" finished-at="2019-04-21T20:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewedProducts -->
+        <test-method status="PASS" signature="BookCategory()[pri:14, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="BookCategory" duration-ms="478" started-at="2019-04-21T20:33:50Z" finished-at="2019-04-21T20:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookCategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.amazon.testclasses.HomepageTest@6e171cd7]" name="tearDown" is-config="true" duration-ms="1640" started-at="2019-04-21T20:33:51Z" finished-at="2019-04-21T20:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.amazon.testclasses.HomepageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
